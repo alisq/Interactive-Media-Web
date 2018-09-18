@@ -1,0 +1,323 @@
+<!--
+GDES3091
+Grace Kim (2502730)
+Household Objects - Sewing Supplies
+1. Thread Clippers (https://www.dropbox.com/s/68f9rnm6mfw9ppp/threadClippers.jpg?dl=0)
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Thread Clippers</title>
+		<style>
+			div { 
+			position:fixed;
+			}
+			.bottomHinge {
+				width:80px;
+				height:60px;
+				background:black;
+				border-radius:0px 0px 40px 40px;
+				top:445px;
+				left:116px;
+			}
+			.rightBlade-outer {
+				width:26px;
+				height:121px;
+				background:black;
+				border-radius:0px 70px 100%/50px 0px;
+				transform:rotate(-15deg);
+				top:66px;
+				left:171px;
+			}
+			.rightBlade-outerCover {
+				width:50px;
+				height:145px;
+				background:white;
+				top:43px;
+				left:131px;
+			}
+			.rightBlade-inner {
+				border-top:0px solid transparent;
+				border-left:30px solid transparent;
+				border-right:10px solid transparent;
+				border-bottom:125px solid black;
+				top:63px;
+				left:151px;
+			}
+			.rightBlade-base {
+				width:30px;
+				border-top:34px solid black;
+				border-left:2px solid transparent;
+				border-right:3px solid transparent;
+				top:168px;
+				left:166px;
+			}
+			.rightShaft-handle {
+				width:15px;
+				border-left:3px solid transparent;
+				border-right:10px solid transparent;
+				border-bottom:270px solid black;
+				transform:rotate(180deg);
+				top:198px;
+				left:171px
+			}
+			.rightShaft-hinge {
+				width:23px;
+				height:37px;
+				background:white;
+				border-radius:10px 10px 0px 10px; 
+				transform:rotate(50deg);
+				top:431px;
+				left:151px;				
+			}
+			.rightConnector {
+				width:18px;
+				border-top:18px solid black;
+				border-left:5px solid transparent;
+				border-right:5px solid transparent;
+				transform:rotate(90deg);
+				top:310px;
+				left:163px;
+			}
+			.middleConnector {
+				width:51px;
+				height:18px;
+				background:black;
+				border-radius:;
+				top:310px;
+				left:130px;				
+			}
+			.leftConnector {
+				width:18px;
+				border-top:18px solid black;
+				border-left:5px solid transparent;
+				border-right:5px solid transparent;
+				transform:rotate(-90deg);
+				top:310px;
+				left:122px;
+			}
+			.leftBlade-outer {
+				width:26px;
+				height:121px;
+				background:black;
+				border-radius:0px 100%/50px 70px 0px;
+				transform:rotate(196deg);
+				top:66px;
+				left:114px;
+			}
+			.leftBlade-outerCover {
+				width:25px;
+				height:145px;
+				background:white;
+				top:43px;
+				left:131px;
+			}
+			.leftBlade-inner {
+				border-top:0px solid transparent;
+				border-left:10px solid transparent;
+				border-right:30px solid transparent;
+				border-bottom:125px solid black;
+				top:63px;
+				left:121px;
+			}
+			.leftBlade-base {
+				width:30px;
+				border-top:34px solid black;
+				border-left:3px solid transparent;
+				border-right:2px solid transparent;
+				top:168px;
+				left:111px;
+			}
+			.leftBlade-circle {
+				width:30px;
+				height:33px;
+				background:white;
+				border-radius:80%/12px;
+				transform:rotate(0deg);
+				top:177px;
+				left:141px;				
+			}
+			.leftShaft-handle {
+				width:15px;
+				border-left:10px solid transparent;
+				border-right:3px solid transparent;
+				border-bottom:270px solid black;
+				transform:rotate(180deg);
+				top:198px;
+				left:113px;
+			}
+			.leftShaft-hinge {
+				width:23px;
+				height:37px;
+				background:white;
+				border-radius:10px 10px 10px 0px; 
+				transform:rotate(-50deg);
+				top:431px;
+				left:138px;				
+			}
+			.rightButton-top {
+				width:8px;
+				height:8px;
+				background:black;
+				border-radius:10px;
+				border:2px solid white;
+				top:205px;
+				left:179px;				
+			}
+			.rightButton-below {
+				width:8px;
+				height:8px;
+				background:black;
+				border-radius:10px;
+				border:2px solid white;
+				top:225px;
+				left:179px;				
+			}
+			.leftButton-top {
+				width:12px;
+				height:12px;
+				background:white;
+				border-radius:6px;
+				top:205px;
+				left:121px;				
+			}
+			.leftButton-below {
+				width:12px;
+				height:12px;
+				background:white;
+				border-radius:6px;
+				top:225px;
+				left:121px;				
+			}
+			.bottomButton {
+				width:14px;
+				height:14px;
+				background:white;
+				border-radius:10px;
+				top:480px;
+				left:149px;				
+			}
+			.detail-lBi1 {
+				width:3px;
+				height:126px;
+				background:white;
+				transform:rotate(-13deg);
+				top:63px;
+				left:146px;				
+			}
+			.detail-lBi2 {
+				width:1px;
+				height:126px;
+				background:white;
+				transform:rotate(-13deg);
+				top:63px;
+				left:143px;				
+			}
+			.detail-lBi3 {
+				width:1px;
+				height:126px;
+				background:white;
+				transform:rotate(-13deg);
+				top:63px;
+				left:131px;				
+			}
+			.detail-handle {
+				width:126px;
+				height:1px;
+				background:white;
+				top:198px;
+				left:110px;
+			}
+			.detail-bottom {
+				width:42px;
+				height:25px;
+				background:transparent;
+				border-radius:0px 0px 22px 22px;
+				border-style:solid;
+				border-width:1px;
+				border-color:white;
+				border-top-color:transparent;
+				transform:rotate(-60deg);
+				top:481px;
+				left:135px;				
+			}
+			.detail-rC1 {
+				width:10px;
+				height:10px;
+				background:white;
+				border-radius:3px;
+				top:300px;
+				left:137px;				
+			}
+			.detail-rC2 {
+				width:10px;
+				height:10px;
+				background:white;
+				border-radius:3px;
+				top:328px;
+				left:136px;				
+			}
+			.detail-lC1 {
+				width:10px;
+				height:10px;
+				background:white;
+				border-radius:3px;
+				top:300px;
+				left:165px;				
+			}
+			.detail-lC2 {
+				width:10px;
+				height:10px;
+				background:white;
+				border-radius:3px;
+				top:328px;
+				left:166px;				
+			}
+			.detail-middleC {
+				width:22px;
+				height:22px;
+				background:transparent;
+				border-radius:6px;
+				border-right:1px solid white;
+				top:308px;
+				left:136px; 
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bottomHinge"></div>
+		<div class="rightBlade-outer"></div>
+		<div class="rightBlade-outerCover"></div>
+		<div class="rightBlade-inner"></div>
+		<div class="rightBlade-base"></div>
+		<div class="rightBlade-circle"></div>
+		<div class="rightShaft-handle"></div>
+		<div class="rightShaft-hinge"></div>
+		<div class="rightConnector"></div>
+		<div class="middleConnector"></div>
+		<div class="leftConnector"></div>
+		<div class="leftBlade-outer"></div>
+		<div class="leftBlade-outerCover"></div>
+		<div class="leftBlade-inner"></div>
+		<div class="leftBlade-base"></div>
+		<div class="leftBlade-circle"></div>
+		<div class="leftShaft-handle"></div>
+		<div class="leftShaft-hinge"></div>
+		<div class="rightButton-top"></div>
+		<div class="rightButton-below"></div>
+		<div class="leftButton-top"></div>
+		<div class="leftButton-below"></div>
+		<div class="bottomButton"></div>
+		<div class="detail-lBi1"></div>
+		<div class="detail-lBi2"></div>
+		<div class="detail-lBi3"></div>
+		<div class="detail-handle"></div>
+		<div class="detail-bottom"></div>
+		<div class="detail-rC1"></div>
+		<div class="detail-rC2"></div>
+		<div class="detail-lC1"></div>
+		<div class="detail-lC2"></div>
+		<div class="detail-middleC"></div>
+	</body>
+</html>
