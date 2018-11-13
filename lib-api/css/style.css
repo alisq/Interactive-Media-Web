@@ -1,0 +1,26 @@
+body {
+	background:black;
+}
+
+
+#section1,
+#section2,
+#section3 {
+	width:500px;
+	height:200px;
+	background:orange;
+	position:absolute;
+	top:50px;
+	left:50%;
+}
+
+
+#section2 {
+	top:3000px;
+}
+
+
+#section3 {
+	left:5000px;
+	top:1500px;
+}
